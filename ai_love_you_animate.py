@@ -4,7 +4,7 @@ import time
 
 # Buat jendela utama
 root = tk.Tk()
-root.title("🤖 AI Love You 💕")
+root.title("I Love You 💕")
 root.geometry("400x500")
 root.config(bg="pink")
 
@@ -12,7 +12,7 @@ canvas = tk.Canvas(root, width=400, height=500, bg="pink", highlightthickness=0)
 canvas.pack()
 
 # Tampilkan pesan utama
-canvas.create_text(200, 50, text="🤖 AI Love You 💖", font=("Arial", 24, "bold"), fill="red")
+canvas.create_text(200, 50, text="I Love You 💖", font=("Arial", 24, "bold"), fill="red")
 
 # Fungsi untuk membuat hati
 def buat_hati():
